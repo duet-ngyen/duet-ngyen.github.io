@@ -1,0 +1,297 @@
+body{	
+	background-color: #f6f6f6;
+	min-width: 530px;
+	max-width: 1500px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+header{
+	background-color: #fff;
+	width: 100%;
+	top: -5px;
+	left: 0px;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+	position: fixed;
+
+}
+
+.navigation{	
+	max-width: 1170px;
+	min-width: 530px;	
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+nav ul li{
+	float: left;
+	padding-top: 5px;
+}
+
+nav ul li a{
+	padding: 10px 15px 10px 20px;
+	text-decoration: none;
+	color: black;
+}
+
+nav ul li a:hover{
+	color: #fc6446;	
+}
+
+section{
+	max-width: 1170px;
+	min-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.img-header{
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	min-width: 500px;
+}
+
+.aside{
+	
+	float: left;
+	
+	margin-top: 30px;
+	margin-right: 30px;
+
+}
+
+.categories{ 	
+	max-width: 250px;	
+	background-color: #fff;	
+}
+
+.header-cate{
+	color: #fff;	
+	background-color: #009587;
+	padding: 10px 0px 10px 20px;
+	margin-top: 0px;	
+
+}
+
+.categories ul li{
+	list-style-type: none;
+	padding-bottom: 5px;
+}
+
+.categories ul li a{
+	text-decoration: none;
+	color: #aaa;
+	padding-right: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.categories ul li a:hover{
+	color: #fc6446;
+}
+
+.products{	
+	width: auto;
+	max-width: 100%;
+	min-width: 300px;		
+	background-color: #fff;
+	margin-top: 30px;
+	margin-left: 250px;
+}
+
+.header-pro{
+	color: #fff;	
+	background-color: #009587;	
+	padding: 10px 0px 10px 20px;
+	margin-top: 0px;
+}
+
+.books{
+	background-color: #fff;	
+	margin: 0px;
+	padding: 0px;	
+}
+
+.books div{
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	margin-left: 30px;
+	padding: 10px 0px 10px 0px;
+	background-color: #f6f6f6;
+	width: 230px;
+	height: 280px;
+	border: solid #eee 1px;
+}
+
+.books div a{
+	text-decoration: none;
+	color: black;
+}
+
+.books div img{
+	background-color: #f6f6f6;
+	width: 150px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+	text-align: center;
+	display: table-cell;	
+}
+
+.books div a h4{
+	text-align: center;
+	padding-top: 0px;	
+	color: #009587;
+}
+
+.books div:hover{
+	background-color: #abcedf;
+	font-style: oblique;
+}
+
+
+.books div a p{
+	text-align: center;		
+	margin-top: -10px;
+}
+
+.endbooks{
+	clear: both;
+}
+
+.books-sale{
+	clear: both;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.books-sale:hover{
+	background-color: #abcedf;
+	font-style: oblique;
+}
+
+.books-sale a{
+	margin-bottom: 10px;	
+}
+
+.sale-off-pic{
+	float: left;
+	background-color: #f6f6f6;
+	padding: 10px 10px 10px 0px;
+	margin-left: 5px;
+}
+
+
+.book-sale{
+	width: 60px;
+	height: 80px;
+	padding-left: 10px;
+	float: left;
+}
+
+.img-sale{
+	width: 30px;
+	margin-left: -65px;
+	margin-top: -10px;
+	float: left;
+}
+
+.sale-content{
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	max-width: 100px;
+}
+
+.sale-content p{
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+}
+
+.new-price{
+	color: red;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+}
+
+.old-price{
+	color: green;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	text-decoration: line-through;
+}
+
+.end-sale{
+	clear: both;
+}
+
+.maps{	
+	width: auto;
+	height: auto;
+	max-width: 100%;	
+	min-width: 500px;
+	padding: 0px;
+	margin: 0px;
+	
+}
+
+.maps img{
+	margin-top: 70px;	
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	min-width: 500px;	
+}
+
+footer{
+	max-width: 1170px;
+	min-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.foot{
+	margin-left: 150px;
+	float: left;
+}
+
+.foot ul{
+	list-style-type: none;
+}
+
+.foot ul li{
+	margin-bottom: 5px;
+}
+
+.foot ul li a{
+	text-decoration: none;
+	margin-left: -40px;
+	color: #bbb;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+}
+
+.foot ul li a:hover{
+	color: #fc6446;
+}
