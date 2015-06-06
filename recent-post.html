@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Duet Ngyen</title>
+    <title>Duet Ngyen | Recent Posts</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">    
     <link rel="stylesheet" href="style.css">    
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </head>
@@ -14,7 +15,7 @@
         
     <div class="navigation-wrapper navbar navbar-default">
         <div class="col-sm-3  col-md-3 col-md-offset-1 col-lg-offset-2 site-name">
-            <a href="#" style="color: #2c3c3c">Duet Ngyen</a>             
+            <a href="index.html" >Duet Ngyen</a>             
         </div>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
             <div>
@@ -30,7 +31,7 @@
                         <ul class="nav navbar-nav">
                             <li class="#"><a href="about.html">About</a></li>                  
                             <li><a href="skills.html">Skills</a></li>
-                            <li><a href="recent-post.html">Recent Posts</a></li>
+                            <li class="active"><a href="#">Recent Posts</a></li>
                         </ul>
                   </div>                  
                 </div>
@@ -38,8 +39,7 @@
         </div>        
     </div>
     
-    <div class="cover-picture">
-        <img src="images/cover.jpg" alt="cover picture" style="width: 100%">                        
+    <div class="cover-picture">        
     </div>
     
     <div class="main" role="main">        
@@ -67,13 +67,14 @@
                 <i class="fa fa-wordpress author-social"> Wordpress</i></a>
             </div>          
             
-        </div>        
+        </div>
         
         <!--Content-->
         <div class="col-sm-9 col-md-8 col-lg-6 index" style="margin-left: 0px; padding: 0">
             <div class="index">
-                <h2 class="recent"><a href="recent-post.html">Recent Posts</a></h2>
-                <div class="border-bottom"></div>
+                <h2 class="recent">All Posts</h2>
+                <h2 class="recent">2015</h2>
+                <div class="border-bottom" style="width: 50%; padding: 0; margin: 0"></div>
                 <article>
                     <h2 class="title-recent-post"><a href="post-csv.html"> CSV with rails </a></h2> 
                     <div class="content-post" data-spy="scroll" data-target=".navbar">
@@ -105,7 +106,7 @@
                         </div>
                          
                     </div>
-                </article>                                 
+                </article>                            
             </div>        
         </div>  
     </div>
@@ -119,10 +120,11 @@
     </footer>
     
     
-
+    
+</div>
+    
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
     <script src="/assets/js/scripts.min.js"></script>
-
 </body>
 </html>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Duet Ngyen</title>
+    <title>Duet Ngyen | About</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">    
@@ -14,7 +14,7 @@
         
     <div class="navigation-wrapper navbar navbar-default">
         <div class="col-sm-3  col-md-3 col-md-offset-1 col-lg-offset-2 site-name">
-            <a href="#" style="color: #2c3c3c">Duet Ngyen</a>             
+            <a href="index.html">Duet Ngyen</a>             
         </div>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
             <div>
@@ -28,7 +28,7 @@
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <div class="col-sm-9 col-md-8 col-lg-6 menu">
                         <ul class="nav navbar-nav">
-                            <li class="#"><a href="about.html">About</a></li>                  
+                            <li class="active"><a href="about.html">About</a></li>                  
                             <li><a href="skills.html">Skills</a></li>
                             <li><a href="recent-post.html">Recent Posts</a></li>
                         </ul>
@@ -38,8 +38,7 @@
         </div>        
     </div>
     
-    <div class="cover-picture">
-        <img src="images/cover.jpg" alt="cover picture" style="width: 100%">                        
+    <div class="cover-picture">        
     </div>
     
     <div class="main" role="main">        
@@ -70,50 +69,52 @@
         </div>        
         
         <!--Content-->
+        
+        <div class="avatar-xs " style="text-align: center">
+            <img src="images/avatar.png" class="avatar" style="padding: 10px; background-color: #eaeaea" alt="avatar">
+        </div>
+        
         <div class="col-sm-9 col-md-8 col-lg-6 index" style="margin-left: 0px; padding: 0">
             <div class="index">
-                <h2 class="recent"><a href="recent-post.html">Recent Posts</a></h2>
-                <div class="border-bottom"></div>
-                <article>
-                    <h2 class="title-recent-post"><a href="post-csv.html"> CSV with rails </a></h2> 
-                    <div class="content-post" data-spy="scroll" data-target=".navbar">
-                        <div class="img-demo">                            
-                            <a href="#" class="thumbnail" data-toggle="modal" data-target="#csv">
-                                <img src="images/csv.png" alt="Click to view the lightbox">
-                            </a>
-                            <!-- Modal -->
-                            <div class="modal fade" id="csv" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                              <div class="modal-dialog">
-                                <div class="modal-content">
-                                  
-                                  <div class="modal-body">
-                                    <img src="images/csv.png" alt="Click to view the lightbox" style="width: 100%">
-                                  </div>                                  
-                                </div>
-                              </div>
-                            </div>
-                        </div>                        
-                        <div class="content-demo">
-                            A sample web application that let you
-                            <ul>
-                                <li>Import data to db from csv file</li>
-                                <li>Export database to csv file</li>
-                                <li>Delete each or all records</li>
-                                <li>Search and sort content by any field</li>                            
-                            </ul>
-                            Hope you find it useful...
-                        </div>
-                         
+                <h2 class="recent">Greetings!</h2>
+                
+                <article>                                  
+                    <div style="margin-top: 30px">
+                        <p>
+                            My name is <strong>Nguyen Van Duyet</strong>.
+                            I'm a ruby on rails developer at Ha Noi Viet Nam
+                        </p>                      
+                        <p>
+                            On this site you can find my <strong><a href="#">CV</a></strong> as well as information about my experiences
+                        </p>
+                        
                     </div>
-                </article>                                 
+                </article>                            
             </div>        
         </div>  
     </div>
     
     <!--Footer-->
+    
     <footer >
         <div class="col-sm-3 col-md-3 col-md-offset-1 col-lg-offset-2 article-author-side"></div>
-        <div class=" col-sm-9 col-md-8 col-lg-6 " style="margin-left: 0px; padding: 0">
+        
+        <div class=" col-sm-9 col-md-8 col-lg-6 " style="margin-left: 0px; padding: 0">            
+            <div class="contact" style="margin-bottom: 5px">Contact me:</div>
+            <div class="contact" style="text-align: center">                
+                <div class="col-xs-3"><a href="mailto:duyet.vn@gmail.com" target="_blank">
+                    <i class="fa fa-envelope-square author-social"> Email</i></a>
+                </div>
+                <div class="col-xs-3"><a href="https://github.com/duet-ngyen" target="_blank">
+                    <i class="fa fa-github-square author-social"> Github</i></a>
+                </div>
+                <div class="col-xs-3"><a href="https://bitbucket.org/duet_ngyen" target="_blank">
+                    <i class="fa fa-bitbucket-square author-social"> Bitbucket</i></a>
+                </div>
+                <div class="col-xs-3"><a href="https://duetngyen.wordpress.com" target="_blank">
+                    <i class="fa fa-wordpress author-social"> Wordpress</i></a>
+                </div>        
+            </div>
             <div class="border-top">(c) 2015 Duyet Nguyen</div>            
         </div>        
     </footer>
