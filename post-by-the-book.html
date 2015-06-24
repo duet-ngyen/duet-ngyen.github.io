@@ -1,20 +1,21 @@
 <!DOCTYPE html>
-
-<head
-    <meta charset="UTF-8">
-    <title>Duyet Nguyen</title>
+<html lang="en">
+<head>
+    <title>Duyet Nguyen | By the book</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">    
     <link rel="stylesheet" href="style.css">    
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </head>
-<body>        
+<body>
+        
     <div class="navigation-wrapper navbar navbar-default">
         <div class="col-sm-3  col-md-3 col-md-offset-1 col-lg-offset-2 site-name">
-            <a href="#" style="color: #2c3c3c">Duyet Nguyen</a>             
+            <a href="index.html" >Duyet Nguyen</a>             
         </div>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
             <div>
@@ -29,8 +30,8 @@
                     <div class="col-sm-9 col-md-8 col-lg-6 menu">
                         <ul class="nav navbar-nav">
                             <li class="#"><a href="about.html">About</a></li>                  
-                            <li><a href="skills.html">Skills</a></li>
-                            <li><a href="recent-post.html">Recent Posts</a></li>
+                            <li ><a href="skills.html">Skills</a></li>
+                            <li class="active"><a href="recent-post.html">Recent Posts</a></li>
                         </ul>
                   </div>                  
                 </div>
@@ -38,8 +39,7 @@
         </div>        
     </div>
     
-    <div class="cover-picture">
-        <img src="images/cover.jpg" alt="cover picture" style="width: 100%">                        
+    <div class="cover-picture">        
     </div>
     
     <div class="main" role="main">        
@@ -67,82 +67,54 @@
                 <i class="fa fa-wordpress author-social"> Wordpress</i></a>
             </div>          
             
-        </div>        
+        </div>
         
         <!--Content-->
         <div class="col-sm-9 col-md-8 col-lg-6 index" style="margin-left: 0px; padding: 0">
             <div class="index">
-                <h2 class="recent"><a href="recent-post.html">Recent Posts</a></h2>
-                <div class="border-bottom"></div>
-                
-                <!--By the book-->
-                <article >
-                    <h2 class="title-recent-post"><a href="post-by-the-book.html"> Book Shop Online </a></h2> 
+                <h2 class="recent">Book Shop Online</h2>
+                <h2 style="font-style: italic; font-size: 1em">Jun-24-2015</h2>
+                <div class="border-bottom" style="width: 50%; padding: 0; margin: 0"></div>
+                <article>
+                    <!-- -->
+					<div style="margin-top: 20px;"></div>
+					
+					
+					
                     <div class="content-post" data-spy="scroll" data-target=".navbar">
-                        <div class="img-demo">                            
-                            <a href="#" class="thumbnail" data-toggle="modal" data-target="#bythebook">
-                                <img src="images/bythebook.png" alt="By The Book">
-                            </a>
-                            <!-- Modal -->
-                            <div class="modal fade" id="bythebook" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                              <div class="modal-dialog">
-                                <div class="modal-content">
-                                  
-                                  <div class="modal-body">
-                                    <img src="images/bythebook.png" alt="By the book" style="width: 100%">
-                                  </div>                                  
-                                </div>
-                              </div>
-                            </div>
-                        </div>                        
-                        <div class="content-demo">
-                            The book store online, that let you
-                            <ul>
-                                <li>Sign up, Login, Logout an accout to buy books</li>
-                                <li>Support multil-screen (mobile, computer)</li>
-                                <li>Order book</li>
-                                <li>View books, authors, guide the same book for you</li>
-                                <li>And more and more...</li>
-                            </ul>                            
-                        </div>                         
-                    </div>
-                </article>
-                
-                
-                <article style="clear: both">
-                    <h2 class="title-recent-post"><a href="post-csv.html"> CSV with rails </a></h2> 
-                    <div class="content-post" data-spy="scroll" data-target=".navbar">
-                        <div class="img-demo">                            
+						
+                        <div class="img-demo" style="width: 230px; float: left">                            
                             <a href="#" class="thumbnail" data-toggle="modal" data-target="#csv">
-                                <img src="images/csv.png" alt="Click to view the lightbox">
+                                <img src="images/bythebook.png" alt="By the book">
                             </a>
                             <!-- Modal -->
                             <div class="modal fade" id="csv" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                               <div class="modal-dialog">
-                                <div class="modal-content">
-                                  
+                                <div class="modal-content">                                  
                                   <div class="modal-body">
-                                    <img src="images/csv.png" alt="Click to view the lightbox" style="width: 100%">
+                                    <img src="images/bythebook.png" alt="Click to view the lightbox" style="width: 100%">
                                   </div>                                  
                                 </div>
                               </div>
                             </div>
-                        </div>                        
-                        <div class="content-demo">
-                            A sample web application that let you
-                            <ul>
-                                <li>Import data to db from csv file</li>
-                                <li>Export database to csv file</li>
-                                <li>Delete each or all records</li>
-                                <li>Search and sort content by any field</li>                            
-                            </ul>
-                            Hope you find it useful...
+                        </div>                          
+                        <div class="content-demo" style="float: none" style="margin-left: 20px">
+                            &emsp;An almost complete web for Book Store Online<br>
+							&emsp;This website:<br>
+                                &emsp;<span class="fa fa-square"></span>&emsp;Responsive to support multil-screen</br>
+								&emsp;<span class="fa fa-square"></span>&emsp;Let user signup, login, logout, oder books</br>
+                                &emsp;<span class="fa fa-square"></span>&emsp;View book details, author infos, guide the same books which you're viewing</br>
+                                &emsp;<span class="fa fa-square"></span>&emsp;Management with admin permission<br><br>
+                            
+							&emsp;This website is final project when I studied Ruby on Rails at <a href="http://techmaster.vn">Techmaster</a><br>
+							&emsp;The first complete website of mine with Ruby on Rails. Althought it was building, but the main function was complete.
+							It use bootstrap to responsive as well as you see, use cloudinary to store the image and some gems of rails<br>
+							You can see more details at:<br>
+							&emsp;<a href="http://duet-ngyen-by-the-book.herokuapp.com/" target="_blank"><i class="fa fa-h-square"></i> Heroku</a><br>							
+							<br>
                         </div>                         
                     </div>
-                </article>
-                
-                
-                
+                </article>                            
             </div>        
         </div>  
     </div>
@@ -150,16 +122,17 @@
     <!--Footer-->
     <footer >
         <div class="col-sm-3 col-md-3 col-md-offset-1 col-lg-offset-2 article-author-side"></div>
-        <div class=" col-sm-9 col-md-8 col-lg-6 " style="margin-left: 0px; padding: 0">
+        <div class=" col-sm-9 col-md-8 col-lg-6" style="margin-left: 0px; padding: 0">
             <div class="border-top">&copy; 2015 Duyet Nguyen</div>            
         </div>        
     </footer>
     
     
-
+    
+</div>
+    
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
     <script src="/assets/js/scripts.min.js"></script>
-
 </body>
 </html>
