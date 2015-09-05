@@ -8,24 +8,24 @@
         width: 28%;
         display: none;
     }
-    
+
     .menu {
         margin: 0;
-        padding-left: 20px;  
+        padding-left: 20px;
     }
-    
-    .site-name {          
+
+    .site-name {
         margin-top: 10px;
         font-size: 2em;
-        white-space: nowrap;    
+        white-space: nowrap;
         max-width: 200px;
         padding-left: 20px;
     }
-    
+
     footer {
         padding-top: 100px;
     }
-    
+
     .content-demo {
         clear: both;
     }
@@ -40,7 +40,7 @@
         width: 28%;
         display: none;
     }
-    
+
     .avatar-xs {
         visibility: hidden;
         clear: both;
@@ -59,23 +59,23 @@ body {
 
 .navigation-wrapper {
     margin: 0 auto;
-    width: 100%;    
+    width: 100%;
     padding:2em 0 1em;
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
-    text-transform: uppercase;    
-    padding-right: 4.16667%;    
+    text-transform: uppercase;
+    padding-right: 4.16667%;
 }
 
-.site-name {          
+.site-name {
     margin-top: 10px;
     font-size: 1.5em;
-    white-space: nowrap;    
-    max-width: 250px;    
+    white-space: nowrap;
+    max-width: 250px;
 }
 
 .site-name a{
-    text-decoration: none;    
+    text-decoration: none;
     color: #2c3c3c
 }
 .site-name a:hover{
@@ -87,7 +87,7 @@ body {
 
 .menu {
     margin: 0;
-    padding-left: 20px;  
+    padding-left: 20px;
 }
 
 .menu a:hover{
@@ -98,12 +98,12 @@ body {
 
 .navbar-toggle {
     float: right;
-    margin-top:  -30px;    
+    margin-top:  -30px;
 }
 
-.cover-picture{   
-	
-    
+.cover-picture{
+
+
 }
 
 .main {
@@ -112,21 +112,21 @@ body {
 
 .article-author-side{
     max-width: 250px;
-    height: auto;    
+    height: auto;
 }
 
-.article-author-side h3 {    
+.article-author-side h3 {
     white-space: nowrap;
     font-size: 1.3em;
     font-weight: bold;
 }
 
-.article-author-side .intro{    
+.article-author-side .intro{
     font-style: italic;
     white-space: nowrap;
 }
 
-.avatar {   
+.avatar {
     width: 100%;
     max-width: 200px;
     height: auto;
@@ -154,7 +154,7 @@ body {
     font-size: 2em;
     font-weight: bold;
     font-family: "PT sans Narrow", sans-serif;
-    line-height: 0.9; 
+    line-height: 0.9;
 }
 
 .recent a {
@@ -164,17 +164,17 @@ body {
     font-size: 1em;
     font-weight: bold;
     font-family: "PT sans Narrow", sans-serif;
-    line-height: 0.9;    
+    line-height: 0.9;
 }
 
 .img-post{
     max-width: 200px;
-    
+
     border-right: 5px;
     float: left;
 }
 
-.title-recent-post a{    
+.title-recent-post a{
     text-decoration: none;
     color: #333332;
     text-shadow: none;
@@ -184,7 +184,7 @@ body {
     padding-bottom: 5px;
 }
 
-.content-post {    
+.content-post {
     margin-left: 20px;
     margin-bottom: 20px;
 }
@@ -208,7 +208,7 @@ body {
 }
 
 footer{
-    clear: both;    
+    clear: both;
     bottom: 30px;
     margin-left: 20px;
     margin-top: 20px;
@@ -219,24 +219,32 @@ footer{
     border-top: inset #333332 1px;
     width: 100%;
     margin-top: 35px;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
 }
 
 .img-demo {
     max-width: 230px;
     float: left;
-    margin-right: 20px;    
+    margin-right: 20px;
 }
 
 .content-demo {
-    float: left;    
+    float: left;
 }
 
-.contact {    
+.contact {
 }
 
 .avatar-xs {
     width: 100%;
     margin-bottom: 10px;
+}
+
+.tab {
+    padding-left: 1em;
+}
+
+.tab5 {
+    padding-left: 3em;
 }
 
